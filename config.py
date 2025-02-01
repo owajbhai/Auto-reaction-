@@ -7,7 +7,7 @@ BOT_OWNER = int(environ.get("BOT_OWNER", "7240555847"))
 BOT_USERNAME = environ.get("BOT_USERNAME", "tymchomapbot")
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002236728519"))
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002271972643"))
-DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://nguyenkhactam5:johnmahkcohbk5@kanereaction.zhqqd.mongodb.net/?retryWrites=true&w=majority&appName=kanereaction")
+DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://nguyenkhactam5:q1231234@kanereaction.zhqqd.mongodb.net/?retryWrites=true&w=majority&appName=kanereaction")
 
 # Define default emojis list
 EMOJIS = [
