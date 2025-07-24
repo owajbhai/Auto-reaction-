@@ -10,7 +10,7 @@ PICS = (os.environ.get("PICS", "")).split()
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001860172104"))
 
 DB_URI = os.environ.get("DB_URI", "Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "mongodb+srv://mongodb011:rxXV4pGzxLJgxaXQ@cluster0.undjh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "mongodb+srv://Botmaster2ndmongo:Botmaster2ndmongo@cluster0737374838.gbhwiw2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0737374838")
 
 IS_FSUB = os.environ.get("IS_FSUB", "False").lower() == "true"  # Set "True" For Enable Force Subscribe
 AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1002046895970").split())) # Add Multiple channel ids
